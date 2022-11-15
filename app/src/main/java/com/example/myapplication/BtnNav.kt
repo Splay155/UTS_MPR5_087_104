@@ -33,8 +33,6 @@ class BtnNav : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        val myWebView: WebView = findViewById(R.id.web)
-        myWebView.loadUrl("https://youtu.be/jPsmtMnHmOo")
 
     }
 }
